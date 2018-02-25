@@ -1,0 +1,56 @@
+<table class="table">
+    <tr>
+        <td>
+            <h3>Detalle de {{registro.nombre_responsable}}</h3>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>ID</td>
+        <td>{{registro.id}}</td>
+    </tr>
+    <tr>
+        <td>id del Tipo Pesca</td>
+        <td>{{registro.id_tipo_pesca}}</td>
+    </tr>
+    <tr>
+        <td>Cantidad de Horas Planificadas</td>
+        <td>{{registro.cant_horas_planificadas}}</td>
+    </tr>
+    <tr>
+        <td>Cantidad de Personas</td>
+        <td>{{registro.cant_personas}}</td>
+    </tr>
+    <tr>
+        <td>Cantidad de Horas Reales</td>
+        <td>{{registro.cantidad_horas_reales}}</td>
+    </tr>
+    <tr>
+        <td>Estado</td>
+        <td>{{registro.estado}}</td>
+    </tr>
+    <tr>
+        <td>Fecha de Entrada</td>
+        <td>{{registro.fecha_entrada}}</td>
+    </tr>
+    <tr>
+        <td>Fecha de Salida</td>
+        <td>{{registro.fecha_salida_real}}</td>
+    </tr>
+    <tr>
+        <td>Monto Horas Planificadas</td>
+        <td>{{registro.monto_horas_planificadas}}</td>
+    </tr>
+    <tr>
+        <td>Monto de Horas Reales</td>
+        <td>{{registro.monto_horas_reales}}</td>
+    </tr>
+    <tr>
+        <td>Nombre Del Responsable</td>
+        <td>{{registro.nombre_responsable}}</td>
+    </tr>
+
+</table>
+<div>
+    <a class="btn btn-primary" ui-sref="registros-edit({id:registro.id})">Editar</a>
+</div>

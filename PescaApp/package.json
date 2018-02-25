@@ -1,0 +1,14 @@
+{
+  "name": "crudApp",
+  "version": "0.0.1",
+  "description": "App para Perfiles con AngularJS",
+  "main": "App.js",
+  "author": "UCSA",
+  "dependencies": {
+    "express": "latest",
+    "method-override": "*",
+    "morgan": "*",
+    "satellizer": "*",
+    "nconf": "*" 
+  }
+}

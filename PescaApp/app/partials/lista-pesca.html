@@ -1,0 +1,17 @@
+<table class="table">
+    <tr>
+        <td>
+            <h3>Lista de Registros de Pesca</h3>
+        </td>
+        <td></td>
+    </tr>
+    <tr ng-repeat="registro in listaRegistros">
+        <td>{{registro.id}}</td>
+        <td>{{registro.nombre_responsable}}</td>
+        <td>
+            <a class="btn btn-default" ui-sref="registros-view({id:registro.id})">Ver</a>
+            <a class="btn btn-danger" ng-click="eliminarRegistro(registro.id)">Eliminar</a>
+        </td>
+    </tr>
+</table>
+<a ui-sref="registros-nuevo" class="btn-primary btn-lg">Agregar Nuevo Registro</a>

@@ -1,0 +1,57 @@
+<div class="form-group">
+    <label for="pesca.id_tipo_pesca" class="col-sm-2 control-label">Tipo Pesca</label>
+    <div class="col-sm-10">
+        <input type="text" ng-model="pesca.id_tipo_pesca" class="form-control" id="pesca.id_tipo_pesca" placeholder="id del tipo Pesca (1 o 2)" />
+    </div>
+</div>
+<div class="form-group">
+    <label for="pesca.cant_personas" class="col-sm-2 control-label">Cantidad de Personas</label>
+    <div class="col-sm-10">
+        <input type="text" ng-model="pesca.cant_personas" class="form-control" id="pesca.cant_personas" placeholder="Cantidad de Personas" />
+    </div>
+</div>
+<div class="form-group">
+    <label for="pesca.fecha_salida_planificada" class="col-sm-2 control-label">Fecha de salida planificada</label>
+    <div class="col-sm-10">
+        <input type="text" ng-model="pesca.fecha_salida_planificada" class="form-control" id="pesca.fecha_salida_planificada" placeholder="Fecha de Salida Planificada" />
+    </div>
+</div>
+<div class="form-group">
+    <label for="pesca.monto_horas_planificadas" class="col-sm-2 control-label">Monto Horas Planificadas</label>
+    <div class="col-sm-10">
+        <input type="text" ng-model="pesca.monto_horas_planificadas" class="form-control" id="pesca.monto_horas_planificadas" placeholder="Monto por las Horas Planificadas" />
+    </div>
+</div>
+<div class="form-group">
+    <label for="pesca.nombre_responsable" class="col-sm-2 control-label">Nombre del Responsable</label>
+    <div class="col-sm-10">
+        <input type="text" ng-model="pesca.nombre_responsable" class="form-control" id="pesca.nombre_responsable" placeholder="Nombre del encargado" />
+    </div>
+</div>
+<div class="form-group">
+    <label for="pesca.cant_horas_planificadas" class="col-sm-2 control-label">Cantidad de Horas Planificadas</label>
+    <div class="col-sm-10">
+        <input type="text" ng-model="pesca.cant_horas_planificadas" class="form-control" id="pesca.cant_horas_planificadas" placeholder="Cantidad de Horas Planificadas (1 o 2)" />
+    </div>
+</div>
+<div class="form-group">
+    <label for="pesca.monto_horas_reales" class="col-sm-2 control-label">Monto de Horas Reales</label>
+    <div class="col-sm-10">
+        <input type="text" ng-model="pesca.monto_horas_reales" class="form-control" id="pesca.monto_horas_reales" placeholder="Monto de Horas Reales" />
+    </div>
+</div>
+
+<div class="form-group">
+    <label for="pesca.cantidad_horas_reales" class="col-sm-2 control-label">Cantidad de Horas Reales</label>
+    <div class="col-sm-10">
+        <input type="text" ng-model="pesca.cantidad_horas_reales" class="form-control" id="pesca.cantidad_horas_reales" placeholder="Cantidad de Horas Reales (1 o 2)" />
+    </div>
+</div>
+
+<div class="form-group">
+
+    <label for="pesca.estado" class="col-sm-2 control-label">Estado</label>
+    <div class="col-sm-10">
+        <select class="form-control" ng-model="pesca.estado" ng-options="estado as estado.label for estado in estados track by estado.id">
+    </div>
+</div>
